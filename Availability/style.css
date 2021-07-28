@@ -1,0 +1,114 @@
+.displayOverrides{
+    margin-top: 1rem;
+    width: 100%;
+    font-family: Roboto;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.dateOverride{
+    border: 1.5px dashed #888;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.dateOverride img{
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+#createmeet {
+    
+    position: relative;
+    top: 15px;
+    right: 10px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    display:flexbox;
+  }
+
+  .button_class{
+    position: relative;
+    top: 20px;
+    right: 30px;
+    border-radius: 20px;
+    padding:15px 25px 15px 25px;
+    border: 1px solid #006bff;;
+    background-color: Transparent;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+    color: #006bff;
+    display:block;
+    }
+
+    .button_class:hover span{
+        display: none;
+        text-decoration: none;
+        
+       }
+       .button_class:hover{
+          color: #388bff;
+          background-color: #003cff17;
+          border-radius: 20px;
+          padding:15px 25px 15px 25px;
+          transition-duration:.5s;
+          transition-delay: 5ms;
+          
+       
+       }
+#day{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgba(212, 212, 212, 0.514);
+}
+#main1{
+    border:1px solid rgb(212, 212, 212);
+    border-radius: 8px;
+}
+#column1{
+    border-right:1px solid rgb(212, 212, 212);  
+}
+#bin{
+    position:relative;
+    right:13px ;
+    top:5px
+}
+#tb{
+    border:1px solid #d0d0d0;
+    border-radius: 5px;
+    width: 75px;
+    height: 35px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 13px;
+}
+#ua{
+    font-size: 13px;;
+}
+#txt1{
+    font-size: 11px;
+    position: relative;
+    top: 8px;
+    right: 13px;
+}
+#txt2{
+    font-size: 11px;
+    position: relative;
+    top: 2px;
+    right: 13px;
+}
+#cb{
+    position: relative;
+    top: 8px;
+}
+#add{
+    position: relative;
+    top:5px;
+}
